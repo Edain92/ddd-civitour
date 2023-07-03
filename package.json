@@ -39,6 +39,7 @@
     "typescript": "5.0.4"
   },
   "dependencies": {
+    "shallow-equal-object": "^1.1.1",
     "uuid": "^9.0.0"
   }
 }
