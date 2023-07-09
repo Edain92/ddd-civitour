@@ -90,4 +90,15 @@ export class Guard {
 
     return { succeeded: true }
   }
+
+  public static dateGreaterThanToday(value: Date, argumentName: string): IGuardResult {
+    const currentDate = new Date();
+    const isValidDate = (value > currentDate);
+
+    if (!isValidDate) {
+      return { succeeded: false, message: `${argumentName} is not greather than today: ${currentDate}.` }
+    }
+
+    return { succeeded: true }
+  }
 }
