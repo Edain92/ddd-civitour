@@ -1,8 +1,7 @@
-
 import { ValueObject } from "../core/domain/ValueObject";
 import { Result } from "../core/logic/Result";
 import { Guard, IGuardResult } from "../core/logic/Guard";
-import { ES_MOBILE_PATTERN } from "../globals/patterns";
+import { ES_MOBILE_PATTERN } from "../constants/patterns";
 
 interface UserPhoneProps {
   value: string;
