@@ -9,15 +9,6 @@ import { TourDate } from "../value-objects/TourDate";
 import { City } from "./City";
 import { Guide } from "./Guide";
 
-interface TourProps {
-  title: Title
-  description: Description
-  date: TourDate
-  city: City
-  capacity: TourCapacity
-  guide: Guide
-}
-
 export class Tour extends Entity<TourProps>  {
   private constructor(props: TourProps, id?: UniqueEntityID) {
     super(props, id)

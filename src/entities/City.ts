@@ -3,11 +3,6 @@ import { UniqueEntityID } from "../core/domain/UniqueEntityID";
 import { Guard } from "../core/logic/Guard";
 import { Result } from "../core/logic/Result";
 
-interface CityProps {
-  name: string
-  active: boolean
-}
-
 export class City extends Entity<CityProps> {
   private constructor(props: CityProps, id?: UniqueEntityID) {
     super(props, id)
