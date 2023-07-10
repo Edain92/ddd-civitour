@@ -23,3 +23,11 @@ interface BookingProps {
   date: Date
   peopleInReserve: BookingPeople
 }
+
+interface ReviewProps {
+  client: Client
+  tour: Tour
+  score: ReviewScore
+  comment: Description
+  tip: ReviewTip
+}
