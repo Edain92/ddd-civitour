@@ -22,13 +22,13 @@ export class City extends Entity<CityProps> {
   }
 
   public static createCity(props: CityProps, id?: UniqueEntityID): Result<City> {
-    const userPropsResult = Guard.againstNullOrUndefinedBulk([
+    const cityResult = Guard.againstNullOrUndefinedBulk([
       { argumentName: 'name', argument: props.name },
       { argumentName: 'active', argument: props.active }
     ]);
 
-    if (!userPropsResult.succeeded) {
-      return Result.fail<City>(userPropsResult.message);
+    if (!cityResult.succeeded) {
+      return Result.fail<City>(cityResult.message);
     }
 
     return Result.ok<City>(new City(props, id))

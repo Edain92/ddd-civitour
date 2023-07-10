@@ -23,14 +23,14 @@ export class Client extends Entity<User>  {
   }
 
   public static createClient(props: User, id?: UniqueEntityID): Result<Client> {
-    const userPropsResult = Guard.againstNullOrUndefinedBulk([
+    const clientResult = Guard.againstNullOrUndefinedBulk([
       { argumentName: 'name', argument: props.name },
       { argumentName: 'surname', argument: props.surname },
       { argumentName: 'phone', argument: props.phone }
     ]);
 
-    if (!userPropsResult.succeeded) {
-      return Result.fail<Client>(userPropsResult.message);
+    if (!clientResult.succeeded) {
+      return Result.fail<Client>(clientResult.message);
     }
 
     return Result.ok<Client>(new Client(props, id))

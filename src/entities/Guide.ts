@@ -23,14 +23,14 @@ export class Guide extends Entity<User>  {
   }
 
   public static createGuide(props: User, id?: UniqueEntityID): Result<Guide> {
-    const userPropsResult = Guard.againstNullOrUndefinedBulk([
+    const guideResult = Guard.againstNullOrUndefinedBulk([
       { argumentName: 'name', argument: props.name },
       { argumentName: 'surname', argument: props.surname },
       { argumentName: 'phone', argument: props.phone }
     ]);
 
-    if (!userPropsResult.succeeded) {
-      return Result.fail<Guide>(userPropsResult.message);
+    if (!guideResult.succeeded) {
+      return Result.fail<Guide>(guideResult.message);
     }
 
     return Result.ok<Guide>(new Guide(props, id))
