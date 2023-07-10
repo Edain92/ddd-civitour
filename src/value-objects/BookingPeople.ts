@@ -35,3 +35,5 @@ export class BookingPeople extends ValueObject<BookingPeopleProps> {
     return Guard.inRange(peopleInReserve, 1, tourCapacity, 'peopleInReserve');
   }
 }
+
+// !TODO: Validación de aplicación (problemas en backoffice, getTours,...) --> Casos de uso, revisar cantidad de reservas

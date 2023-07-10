@@ -23,7 +23,7 @@ export class UserPhone extends ValueObject<UserPhoneProps> {
       return Result.fail<UserPhone>(nullGuardResult.message);
     }
 
-    const spanishPhoneGuardResult = UserPhone.isSpanishPhone(phone, ES_MOBILE_PATTERN);
+    const spanishPhoneGuardResult = UserPhone.isSpanishPhone(phone);
 
     if (!spanishPhoneGuardResult.succeeded) {
       return Result.fail<UserPhone>(spanishPhoneGuardResult.message);
@@ -32,8 +32,8 @@ export class UserPhone extends ValueObject<UserPhoneProps> {
     return Result.ok<UserPhone>(new UserPhone({ value: phone }))
   }
 
-  private static isSpanishPhone(phone: string, pattern: string): IGuardResult {
-    return Guard.validPattern(phone, pattern, 'phone');
+  private static isSpanishPhone(phone: string): IGuardResult {
+    return Guard.validPattern(phone, ES_MOBILE_PATTERN, 'phone');
   }
 }
 

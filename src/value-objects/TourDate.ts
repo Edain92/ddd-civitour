@@ -35,3 +35,5 @@ export class TourDate extends ValueObject<TourDateProps> {
     return Guard.dateGreaterThanToday(date, 'date');
   }
 }
+
+// !TODO: Validación de aplicación (problemas en backoffice, getTours,...) --> Casos de uso

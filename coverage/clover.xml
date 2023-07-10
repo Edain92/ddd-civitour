@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1689012482360" clover="3.2.0">
+  <project timestamp="1689012482360" name="All files">
+    <metrics statements="324" coveredstatements="261" conditionals="66" coveredconditionals="32" methods="104" coveredmethods="85" elements="494" coveredelements="378" complexity="0" loc="324" ncloc="324" packages="5" files="23" classes="23"/>
+    <package name="constants">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="patterns.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/constants/patterns.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="core.domain">
+      <metrics statements="35" coveredstatements="15" conditionals="17" coveredconditionals="2" methods="10" coveredmethods="4"/>
+      <file name="Entity.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/core/domain/Entity.ts">
+        <metrics statements="13" coveredstatements="5" conditionals="7" coveredconditionals="1" methods="3" coveredmethods="1"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="13" count="18" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="18" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+      </file>
+      <file name="Identifier.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/core/domain/Identifier.ts">
+        <metrics statements="10" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="16" type="stmt"/>
+        <line num="4" count="16" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+      <file name="UniqueEntityID.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/core/domain/UniqueEntityID.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="6" count="16" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="ValueObject.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/core/domain/ValueObject.ts">
+        <metrics statements="8" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="1" count="15" type="stmt"/>
+        <line num="12" count="15" type="stmt"/>
+        <line num="16" count="40" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="core.logic">
+      <metrics statements="71" coveredstatements="38" conditionals="23" coveredconditionals="14" methods="22" coveredmethods="9"/>
+      <file name="Guard.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/core/logic/Guard.ts">
+        <metrics statements="39" coveredstatements="22" conditionals="15" coveredconditionals="10" methods="8" coveredmethods="5"/>
+        <line num="14" count="16" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="24" count="129" type="cond" truecount="4" falsecount="0"/>
+        <line num="25" count="10" type="stmt"/>
+        <line num="28" count="119" type="stmt"/>
+        <line num="32" count="25" type="stmt"/>
+        <line num="33" count="73" type="stmt"/>
+        <line num="34" count="73" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="18" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="48" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="59" count="37" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="37" type="cond" truecount="1" falsecount="0"/>
+        <line num="62" count="10" type="stmt"/>
+        <line num="65" count="27" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="76" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="84" count="11" type="stmt"/>
+        <line num="85" count="11" type="stmt"/>
+        <line num="87" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="91" count="9" type="stmt"/>
+        <line num="95" count="5" type="stmt"/>
+        <line num="96" count="5" type="stmt"/>
+        <line num="98" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="102" count="4" type="stmt"/>
+      </file>
+      <file name="Result.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/core/logic/Result.ts">
+        <metrics statements="32" coveredstatements="16" conditionals="8" coveredconditionals="4" methods="14" coveredmethods="4"/>
+        <line num="2" count="16" type="stmt"/>
+        <line num="9" count="81" type="cond" truecount="2" falsecount="1"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="81" type="cond" truecount="2" falsecount="1"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="81" type="stmt"/>
+        <line num="17" count="81" type="stmt"/>
+        <line num="18" count="81" type="stmt"/>
+        <line num="19" count="81" type="stmt"/>
+        <line num="21" count="81" type="stmt"/>
+        <line num="25" count="66" type="cond" truecount="0" falsecount="1"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="66" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="38" count="58" type="stmt"/>
+        <line num="42" count="23" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="55" count="16" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="71" count="16" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="87" count="16" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="91" count="16" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="entities">
+      <metrics statements="77" coveredstatements="74" conditionals="6" coveredconditionals="3" methods="35" coveredmethods="35"/>
+      <file name="Booking.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/entities/Booking.ts">
+        <metrics statements="13" coveredstatements="12" conditionals="1" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="38" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+      </file>
+      <file name="City.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/entities/City.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="25" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+      </file>
+      <file name="Client.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/entities/Client.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="5" coveredmethods="5"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="32" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+      </file>
+      <file name="Guide.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/entities/Guide.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="5" coveredmethods="5"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
+        <line num="32" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+      </file>
+      <file name="Review.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/entities/Review.ts">
+        <metrics statements="14" coveredstatements="13" conditionals="1" coveredconditionals="0" methods="7" coveredmethods="7"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="44" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+      </file>
+      <file name="Tour.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/entities/Tour.ts">
+        <metrics statements="15" coveredstatements="14" conditionals="1" coveredconditionals="0" methods="8" coveredmethods="8"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="51" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="value-objects">
+      <metrics statements="139" coveredstatements="132" conditionals="20" coveredconditionals="13" methods="37" coveredmethods="37"/>
+      <file name="BookingPeople.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/value-objects/BookingPeople.ts">
+        <metrics statements="14" coveredstatements="13" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+      </file>
+      <file name="Description.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/value-objects/Description.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="21" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="27" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+      </file>
+      <file name="LatLong.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/value-objects/LatLong.ts">
+        <metrics statements="15" coveredstatements="14" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="22" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="28" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+      </file>
+      <file name="ReviewScore.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/value-objects/ReviewScore.ts">
+        <metrics statements="14" coveredstatements="13" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+      </file>
+      <file name="ReviewTip.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/value-objects/ReviewTip.ts">
+        <metrics statements="14" coveredstatements="13" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+      </file>
+      <file name="Title.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/value-objects/Title.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+        <line num="21" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="27" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+      </file>
+      <file name="TourCapacity.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/value-objects/TourCapacity.ts">
+        <metrics statements="14" coveredstatements="13" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="21" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="27" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="35" count="5" type="stmt"/>
+      </file>
+      <file name="TourDate.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/value-objects/TourDate.ts">
+        <metrics statements="14" coveredstatements="13" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="21" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="27" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="35" count="5" type="stmt"/>
+      </file>
+      <file name="UserName.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/value-objects/UserName.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="19" count="11" type="stmt"/>
+        <line num="21" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="10" type="stmt"/>
+        <line num="27" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
+      </file>
+      <file name="UserPhone.ts" path="/Users/mpizarrocuevas/Documents/MEGA/ISDI/activities/3.software-architecture/ddd-civitour/src/value-objects/UserPhone.ts">
+        <metrics statements="15" coveredstatements="14" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="20" count="9" type="stmt"/>
+        <line num="22" count="9" type="cond" truecount="0" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="9" type="stmt"/>
+        <line num="28" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="8" type="stmt"/>
+        <line num="36" count="9" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -1,14 +1,15 @@
-interface User {
+type User = {
   name: UserName
   surname: string
   phone: UserPhone
 }
-interface CityProps {
+
+type CityProps = {
   name: string
   active: boolean
 }
 
-interface TourProps {
+type TourProps = {
   title: Title
   description: Description
   date: TourDate
@@ -17,17 +18,30 @@ interface TourProps {
   guide: Guide
 }
 
-interface BookingProps {
+type BookingProps = {
   tour: Tour
   client: Client
   date: Date
   peopleInReserve: BookingPeople
 }
 
-interface ReviewProps {
+type ReviewProps = {
   client: Client
   tour: Tour
   score: ReviewScore
   comment: Description
   tip: ReviewTip
+}
+
+type MediaFileProps = {
+  name: string
+  source: string
+}
+
+type StopProps = {
+  title: Title
+  description: Description
+  latitude: LatLong
+  longitude: LatLong
+  mediaFiles: MediaFile[]
 }
