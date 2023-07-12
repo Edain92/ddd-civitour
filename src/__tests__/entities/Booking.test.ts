@@ -1,18 +1,18 @@
 
 import { UniqueEntityID } from '../../core/domain/UniqueEntityID';
 import { Result } from '../../core/logic/Result';
-import { Booking } from '../../entities/Booking';
-import { City } from '../../entities/City';
-import { Client } from '../../entities/Client';
-import { Guide } from '../../entities/Guide';
-import { Tour } from '../../entities/Tour';
-import { BookingPeople } from '../../value-objects/BookingPeople';
-import { Description } from '../../value-objects/Description';
-import { Title } from '../../value-objects/Title';
-import { TourCapacity } from '../../value-objects/TourCapacity';
-import { TourDate } from '../../value-objects/TourDate';
-import { UserName } from '../../value-objects/UserName';
-import { UserPhone } from '../../value-objects/UserPhone';
+import { Booking } from '../../modules/Booking';
+import { City } from '../../modules/City';
+import { Client } from '../../modules/Client';
+import { Guide } from '../../modules/Guide';
+import { Tour } from '../../modules/Tour';
+import { BookingPeople } from '../../modules/value-objects/BookingPeople';
+import { Description } from '../../modules/value-objects/Description';
+import { Title } from '../../modules/value-objects/Title';
+import { TourCapacity } from '../../modules/value-objects/TourCapacity';
+import { TourDate } from '../../modules/value-objects/TourDate';
+import { UserName } from '../../modules/value-objects/UserName';
+import { UserPhone } from '../../modules/value-objects/UserPhone';
 
 describe('Entity: Booking', () => {
   const tourDate = new Date('2023-10-12');

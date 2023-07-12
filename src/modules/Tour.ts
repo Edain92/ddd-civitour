@@ -2,10 +2,10 @@ import { Entity } from "../core/domain/Entity";
 import { UniqueEntityID } from "../core/domain/UniqueEntityID";
 import { Guard } from "../core/logic/Guard";
 import { Result } from "../core/logic/Result";
-import { Description } from "../value-objects/Description";
-import { Title } from "../value-objects/Title";
-import { TourCapacity } from "../value-objects/TourCapacity";
-import { TourDate } from "../value-objects/TourDate";
+import { Description } from "./value-objects/Description";
+import { Title } from "./value-objects/Title";
+import { TourCapacity } from "./value-objects/TourCapacity";
+import { TourDate } from "./value-objects/TourDate";
 import { City } from "./City";
 import { Guide } from "./Guide";
 

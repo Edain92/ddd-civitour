@@ -1,8 +1,8 @@
-import { Description } from "../../value-objects/Description";
-import { LatLong } from "../../value-objects/LatLong";
-import { MediaFile } from "../../value-objects/MediaFile";
-import { Stop } from "../../value-objects/Stop";
-import { Title } from "../../value-objects/Title";
+import { Description } from "../../modules/value-objects/Description";
+import { LatLong } from "../../modules/value-objects/LatLong";
+import { MediaFile } from "../../modules/value-objects/MediaFile";
+import { Stop } from "../../modules/value-objects/Stop";
+import { Title } from "../../modules/value-objects/Title";
 
 describe('ValueObject: Stop', () => {
   const validMediaFile = {

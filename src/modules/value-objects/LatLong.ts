@@ -1,7 +1,7 @@
-import { ValueObject } from "../core/domain/ValueObject";
-import { Result } from "../core/logic/Result";
-import { Guard, IGuardResult } from "../core/logic/Guard";
-import { LAT_LONG_PATTERN } from "../constants/patterns";
+import { ValueObject } from "../../core/domain/ValueObject";
+import { Result } from "../../core/logic/Result";
+import { Guard, IGuardResult } from "../../core/logic/Guard";
+import { LAT_LONG_PATTERN } from "../../constants/patterns";
 
 interface LatLongProps {
   value: string;

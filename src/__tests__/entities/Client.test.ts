@@ -1,8 +1,8 @@
-import { Client } from '../../entities/Client';
+import { Client } from '../../modules/Client';
 import { UniqueEntityID } from '../../core/domain/UniqueEntityID';
 import { Result } from '../../core/logic/Result';
-import { UserName } from '../../value-objects/UserName';
-import { UserPhone } from '../../value-objects/UserPhone';
+import { UserName } from '../../modules/value-objects/UserName';
+import { UserPhone } from '../../modules/value-objects/UserPhone';
 
 describe('Entity: Client', () => {
   const id = new UniqueEntityID();

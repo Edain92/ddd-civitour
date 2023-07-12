@@ -1,4 +1,4 @@
-import { TourDate } from "../../value-objects/TourDate";
+import { TourDate } from "../../modules/value-objects/TourDate";
 
 describe('ValueObject: TourDate', () => {
   const validTourDate: Date = new Date('2023-12-31');

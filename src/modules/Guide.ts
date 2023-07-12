@@ -2,10 +2,10 @@ import { Entity } from "../core/domain/Entity";
 import { UniqueEntityID } from "../core/domain/UniqueEntityID";
 import { Guard } from "../core/logic/Guard";
 import { Result } from "../core/logic/Result";
-import { UserName } from "../value-objects/UserName";
-import { UserPhone } from "../value-objects/UserPhone";
+import { UserName } from "./value-objects/UserName";
+import { UserPhone } from "./value-objects/UserPhone";
 
-export class Client extends Entity<User>  {
+export class Guide extends Entity<User>  {
   private constructor(props: User, id?: UniqueEntityID) {
     super(props, id)
   }
@@ -22,17 +22,17 @@ export class Client extends Entity<User>  {
     return this.props.phone;
   }
 
-  public static createClient(props: User, id?: UniqueEntityID): Result<Client> {
-    const clientResult = Guard.againstNullOrUndefinedBulk([
+  public static createGuide(props: User, id?: UniqueEntityID): Result<Guide> {
+    const guideResult = Guard.againstNullOrUndefinedBulk([
       { argumentName: 'name', argument: props.name },
       { argumentName: 'surname', argument: props.surname },
       { argumentName: 'phone', argument: props.phone }
     ]);
 
-    if (!clientResult.succeeded) {
-      return Result.fail<Client>(clientResult.message);
+    if (!guideResult.succeeded) {
+      return Result.fail<Guide>(guideResult.message);
     }
 
-    return Result.ok<Client>(new Client(props, id))
+    return Result.ok<Guide>(new Guide(props, id))
   }
 }

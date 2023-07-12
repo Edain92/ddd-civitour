@@ -1,4 +1,4 @@
-import { ReviewTip } from "../../value-objects/ReviewTip";
+import { ReviewTip } from "../../modules/value-objects/ReviewTip";
 
 describe('ValueObject: ReviewTip', () => {
   it('Should create a valid ReviewTip object', () => {

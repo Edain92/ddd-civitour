@@ -1,4 +1,4 @@
-import { MediaFile } from "../../value-objects/MediaFile";
+import { MediaFile } from "../../modules/value-objects/MediaFile";
 
 describe('ValueObject: MediaFile', () => {
   const validMediaFile = {

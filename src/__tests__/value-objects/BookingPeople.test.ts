@@ -1,4 +1,4 @@
-import { BookingPeople } from "../../value-objects/BookingPeople";
+import { BookingPeople } from "../../modules/value-objects/BookingPeople";
 
 describe('ValueObject: BookingPeople', () => {
   it('Should create a valid BookingPeople object', () => {

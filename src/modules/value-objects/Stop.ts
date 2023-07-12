@@ -1,6 +1,6 @@
-import { ValueObject } from "../core/domain/ValueObject";
-import { Result } from "../core/logic/Result";
-import { Guard } from "../core/logic/Guard";
+import { ValueObject } from "../../core/domain/ValueObject";
+import { Result } from "../../core/logic/Result";
+import { Guard } from "../../core/logic/Guard";
 import { Description } from "./Description";
 import { Title } from "./Title";
 import { LatLong } from "./LatLong";

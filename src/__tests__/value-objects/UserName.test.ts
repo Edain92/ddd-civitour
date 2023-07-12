@@ -1,4 +1,4 @@
-import { UserName } from '../../value-objects/UserName';
+import { UserName } from '../../modules/value-objects/UserName';
 
 describe('ValueObject: UserName', () => {
   describe('Testing create', () => {

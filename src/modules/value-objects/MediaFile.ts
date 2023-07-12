@@ -1,7 +1,7 @@
-import { ValueObject } from "../core/domain/ValueObject";
-import { Result } from "../core/logic/Result";
-import { Guard, IGuardResult } from "../core/logic/Guard";
-import { URL_PATTERN } from "../constants/patterns";
+import { ValueObject } from "../../core/domain/ValueObject";
+import { Result } from "../../core/logic/Result";
+import { Guard, IGuardResult } from "../../core/logic/Guard";
+import { URL_PATTERN } from "../../constants/patterns";
 
 export class MediaFile extends ValueObject<MediaFileProps> {
   private constructor(props: MediaFileProps) {

@@ -1,8 +1,8 @@
-import { Guide } from '../../entities/Guide';
+import { Guide } from '../../modules/Guide';
 import { UniqueEntityID } from '../../core/domain/UniqueEntityID';
 import { Result } from '../../core/logic/Result';
-import { UserName } from '../../value-objects/UserName';
-import { UserPhone } from '../../value-objects/UserPhone';
+import { UserName } from '../../modules/value-objects/UserName';
+import { UserPhone } from '../../modules/value-objects/UserPhone';
 
 describe('Entity: Guide', () => {
   const id = new UniqueEntityID();

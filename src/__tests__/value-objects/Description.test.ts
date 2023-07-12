@@ -1,4 +1,4 @@
-import { Description } from "../../value-objects/Description";
+import { Description } from "../../modules/value-objects/Description";
 
 describe('ValueObject: Description', () => {
   describe('Testing create', () => {

@@ -1,15 +1,15 @@
 
 import { UniqueEntityID } from '../../core/domain/UniqueEntityID';
 import { Result } from '../../core/logic/Result';
-import { Title } from '../../value-objects/Title';
-import { Description } from '../../value-objects/Description';
-import { City } from '../../entities/City';
-import { TourDate } from '../../value-objects/TourDate';
-import { TourCapacity } from '../../value-objects/TourCapacity';
-import { Guide } from '../../entities/Guide';
-import { UserName } from '../../value-objects/UserName';
-import { UserPhone } from '../../value-objects/UserPhone';
-import { Tour } from '../../entities/Tour';
+import { Title } from '../../modules/value-objects/Title';
+import { Description } from '../../modules/value-objects/Description';
+import { City } from '../../modules/City';
+import { TourDate } from '../../modules/value-objects/TourDate';
+import { TourCapacity } from '../../modules/value-objects/TourCapacity';
+import { Guide } from '../../modules/Guide';
+import { UserName } from '../../modules/value-objects/UserName';
+import { UserPhone } from '../../modules/value-objects/UserPhone';
+import { Tour } from '../../modules/Tour';
 
 describe('Entity: Tour', () => {
   const tourId = new UniqueEntityID();

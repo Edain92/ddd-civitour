@@ -1,4 +1,4 @@
-import { TourCapacity } from "../../value-objects/TourCapacity";
+import { TourCapacity } from "../../modules/value-objects/TourCapacity";
 
 describe('ValueObject: TourCapacity', () => {
   it('Should create a valid TourCapacity object', () => {

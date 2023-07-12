@@ -1,4 +1,4 @@
-import { ReviewScore } from "../../value-objects/ReviewScore";
+import { ReviewScore } from "../../modules/value-objects/ReviewScore";
 
 describe('ValueObject: ReviewScore', () => {
   it('Should create a valid ReviewScore object', () => {

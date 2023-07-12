@@ -1,4 +1,4 @@
-import { UserPhone } from "../../value-objects/UserPhone";
+import { UserPhone } from "../../modules/value-objects/UserPhone";
 
 describe('ValueObject: UserPhone', () => {
   const validSpanishPhone = "+34 600000000";

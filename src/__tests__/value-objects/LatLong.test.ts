@@ -1,4 +1,4 @@
-import { LatLong } from "../../value-objects/LatLong";
+import { LatLong } from "../../modules/value-objects/LatLong";
 
 describe('ValueObject: LatLong', () => {
   it('Should create a valid LatLong object', () => {
