@@ -1,7 +1,7 @@
-import { Entity } from "../core/domain/Entity";
-import { UniqueEntityID } from "../core/domain/UniqueEntityID";
-import { Guard } from "../core/logic/Guard";
-import { Result } from "../core/logic/Result";
+import { Entity } from "../../core/domain/Entity";
+import { UniqueEntityID } from "../../core/domain/UniqueEntityID";
+import { Guard } from "../../core/logic/Guard";
+import { Result } from "../../core/logic/Result";
 
 export class City extends Entity<CityProps> {
   private constructor(props: CityProps, id?: UniqueEntityID) {

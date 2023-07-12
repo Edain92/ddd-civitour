@@ -1,4 +1,4 @@
-import { Guide } from '../../modules/Guide';
+import { Guide } from '../../modules/Guide/Guide';
 import { UniqueEntityID } from '../../core/domain/UniqueEntityID';
 import { Result } from '../../core/logic/Result';
 import { UserName } from '../../modules/value-objects/UserName';

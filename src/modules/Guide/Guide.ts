@@ -1,9 +1,9 @@
-import { Entity } from "../core/domain/Entity";
-import { UniqueEntityID } from "../core/domain/UniqueEntityID";
-import { Guard } from "../core/logic/Guard";
-import { Result } from "../core/logic/Result";
-import { UserName } from "./value-objects/UserName";
-import { UserPhone } from "./value-objects/UserPhone";
+import { Entity } from "../../core/domain/Entity";
+import { UniqueEntityID } from "../../core/domain/UniqueEntityID";
+import { Guard } from "../../core/logic/Guard";
+import { Result } from "../../core/logic/Result";
+import { UserName } from "../value-objects/UserName";
+import { UserPhone } from "../value-objects/UserPhone";
 
 export class Guide extends Entity<User>  {
   private constructor(props: User, id?: UniqueEntityID) {

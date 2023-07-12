@@ -1,4 +1,4 @@
-import { Client } from '../../modules/Client';
+import { Client } from '../../modules/Client/Client';
 import { UniqueEntityID } from '../../core/domain/UniqueEntityID';
 import { Result } from '../../core/logic/Result';
 import { UserName } from '../../modules/value-objects/UserName';

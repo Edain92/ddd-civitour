@@ -1,11 +1,11 @@
 
 import { UniqueEntityID } from '../../core/domain/UniqueEntityID';
 import { Result } from '../../core/logic/Result';
-import { Booking } from '../../modules/Booking';
-import { City } from '../../modules/City';
-import { Client } from '../../modules/Client';
-import { Guide } from '../../modules/Guide';
-import { Tour } from '../../modules/Tour';
+import { Booking } from '../../modules/Booking/Booking';
+import { City } from '../../modules/City/City';
+import { Client } from '../../modules/Client/Client';
+import { Guide } from '../../modules/Guide/Guide';
+import { Tour } from '../../modules/Tour/Tour';
 import { BookingPeople } from '../../modules/value-objects/BookingPeople';
 import { Description } from '../../modules/value-objects/Description';
 import { Title } from '../../modules/value-objects/Title';

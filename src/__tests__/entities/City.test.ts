@@ -1,4 +1,4 @@
-import { City } from '../../modules/City';
+import { City } from '../../modules/City/City';
 import { UniqueEntityID } from '../../core/domain/UniqueEntityID';
 import { Result } from '../../core/logic/Result';
 

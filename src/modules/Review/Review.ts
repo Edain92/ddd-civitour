@@ -1,11 +1,11 @@
-import { Entity } from "../core/domain/Entity";
-import { UniqueEntityID } from "../core/domain/UniqueEntityID";
-import { Guard } from "../core/logic/Guard";
-import { Result } from "../core/logic/Result";
-import { Description } from "./value-objects/Description";
-import { ReviewScore } from "./value-objects/ReviewScore";
-import { Client } from "./Client";
-import { Tour } from "./Tour";
+import { Entity } from "../../core/domain/Entity";
+import { UniqueEntityID } from "../../core/domain/UniqueEntityID";
+import { Guard } from "../../core/logic/Guard";
+import { Result } from "../../core/logic/Result";
+import { Description } from "../value-objects/Description";
+import { ReviewScore } from "../value-objects/ReviewScore";
+import { Client } from "../Client/Client";
+import { Tour } from "../Tour/Tour";
 
 export class Review extends Entity<ReviewProps>  {
   private constructor(props: ReviewProps, id?: UniqueEntityID) {

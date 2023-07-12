@@ -1,10 +1,10 @@
-import { Entity } from "../core/domain/Entity";
-import { UniqueEntityID } from "../core/domain/UniqueEntityID";
-import { Guard } from "../core/logic/Guard";
-import { Result } from "../core/logic/Result";
-import { BookingPeople } from "./value-objects/BookingPeople";
-import { Client } from "./Client";
-import { Tour } from "./Tour";
+import { Entity } from "../../core/domain/Entity";
+import { UniqueEntityID } from "../../core/domain/UniqueEntityID";
+import { Guard } from "../../core/logic/Guard";
+import { Result } from "../../core/logic/Result";
+import { BookingPeople } from "../value-objects/BookingPeople";
+import { Client } from "../Client/Client";
+import { Tour } from "../Tour/Tour";
 
 export class Booking extends Entity<BookingProps>  {
   private constructor(props: BookingProps, id?: UniqueEntityID) {

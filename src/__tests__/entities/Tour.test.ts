@@ -3,13 +3,13 @@ import { UniqueEntityID } from '../../core/domain/UniqueEntityID';
 import { Result } from '../../core/logic/Result';
 import { Title } from '../../modules/value-objects/Title';
 import { Description } from '../../modules/value-objects/Description';
-import { City } from '../../modules/City';
+import { City } from '../../modules/City/City';
 import { TourDate } from '../../modules/value-objects/TourDate';
 import { TourCapacity } from '../../modules/value-objects/TourCapacity';
-import { Guide } from '../../modules/Guide';
+import { Guide } from '../../modules/Guide/Guide';
 import { UserName } from '../../modules/value-objects/UserName';
 import { UserPhone } from '../../modules/value-objects/UserPhone';
-import { Tour } from '../../modules/Tour';
+import { Tour } from '../../modules/Tour/Tour';
 
 describe('Entity: Tour', () => {
   const tourId = new UniqueEntityID();
