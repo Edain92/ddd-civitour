@@ -4,7 +4,6 @@ import { Result } from '../../core/logic/Result'
 import { Review } from '../../modules/Review/Review'
 import { City } from '../../modules/City/City'
 import { Client } from '../../modules/Client/Client'
-import { Guide } from '../../modules/Guide/Guide'
 import { Tour } from '../../modules/Tour/Tour'
 import { Description } from '../../modules/value-objects/Description'
 import { Title } from '../../modules/value-objects/Title'
@@ -14,6 +13,7 @@ import { UserName } from '../../modules/value-objects/UserName'
 import { UserPhone } from '../../modules/value-objects/UserPhone'
 import { ReviewScore } from '../../modules/value-objects/ReviewScore'
 import { ReviewTip } from '../../modules/value-objects/ReviewTip'
+import { GuideId } from '../../modules/Guide/GuideId'
 
 describe('Entity: Review', () => {
   const tourDate = new Date('2023-10-12')
@@ -26,12 +26,7 @@ describe('Entity: Review', () => {
     date: TourDate.create(tourDate).getValue(),
     city: City.createCity({ name: 'Barcelona', active: true }, new UniqueEntityID()).getValue(),
     capacity: tourCapacity,
-    guide: Guide.createGuide(
-      {
-        name: UserName.create('Laura').getValue(),
-        surname: 'Garcia',
-        phone: UserPhone.create('+34691184757').getValue()
-      }, new UniqueEntityID()).getValue()
+    guideId: GuideId.create(new UniqueEntityID('test-guide')),
   }, tourId)
 
   const clientName = UserName.create('Luis')

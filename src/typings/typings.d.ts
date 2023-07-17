@@ -15,7 +15,7 @@ type TourProps = {
   date: TourDate
   city: City
   capacity: TourCapacity
-  guide: Guide
+  guideId: GuideId
 }
 
 type BookingProps = {

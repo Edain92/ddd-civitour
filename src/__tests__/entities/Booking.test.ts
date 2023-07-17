@@ -4,7 +4,7 @@ import { Result } from '../../core/logic/Result';
 import { Booking } from '../../modules/Booking/Booking';
 import { City } from '../../modules/City/City';
 import { Client } from '../../modules/Client/Client';
-import { Guide } from '../../modules/Guide/Guide';
+import { GuideId } from '../../modules/Guide/GuideId';
 import { Tour } from '../../modules/Tour/Tour';
 import { BookingPeople } from '../../modules/value-objects/BookingPeople';
 import { Description } from '../../modules/value-objects/Description';
@@ -25,12 +25,7 @@ describe('Entity: Booking', () => {
     date: TourDate.create(tourDate).getValue(),
     city: City.createCity({ name: 'Barcelona', active: true }, new UniqueEntityID()).getValue(),
     capacity: tourCapacity,
-    guide: Guide.createGuide(
-      {
-        name: UserName.create('Laura').getValue(),
-        surname: 'Garcia',
-        phone: UserPhone.create('+34691184757').getValue()
-      }, new UniqueEntityID()).getValue()
+    guideId: GuideId.create(new UniqueEntityID('test-guide')),
   }, tourId);
 
   const clientName = UserName.create('Juan')

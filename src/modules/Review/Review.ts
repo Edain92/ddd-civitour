@@ -12,11 +12,11 @@ export class Review extends Entity<ReviewProps>  {
     super(props, id)
   }
 
-  get tour(): Tour {
+  get tour(): Tour { //? TODO: tourId?
     return this.props.tour;
   }
 
-  get client(): Client {
+  get client(): Client { //? TODO: clientId?
     return this.props.client;
   }
 

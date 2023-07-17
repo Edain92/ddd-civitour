@@ -1,6 +1,6 @@
 import { UniqueEntityID } from "../../../../core/domain/UniqueEntityID";
 import { UseCase } from "../../../../core/domain/UseCase";
-import { Repository } from "../../../../core/infra/repository";
+import { Repository } from "../../../../core/infra/Repository";
 import { Result } from "../../../../core/logic/Result";
 import { TextUtil } from "../../../../utils/TextUtil";
 import { City } from "../../../City/City";
@@ -8,6 +8,7 @@ import { GuideId } from "../../../Guide/GuideId";
 import { Description } from "../../../value-objects/Description";
 import { Title } from "../../../value-objects/Title";
 import { TourCapacity } from "../../../value-objects/TourCapacity";
+import { TourDate } from "../../../value-objects/TourDate";
 import { Tour } from "../../Tour";
 
 interface CreateTourUseCaseRequestDTO {
@@ -50,7 +51,7 @@ export class CreateTourUseCase implements UseCase<CreateTourUseCaseRequestDTO, R
   }
 
   public async execute(request: CreateTourUseCaseRequestDTO): Promise<Result<Tour>> {
-    const { title, description, capacity, guideId } = request;
+    const { title, description, date, capacity, guideId } = request;
 
     let city: City;
 
@@ -65,6 +66,7 @@ export class CreateTourUseCase implements UseCase<CreateTourUseCaseRequestDTO, R
       const tourOrError = Tour.createTour({
         title: Title.create(title).getValue(),
         description: Description.create(description).getValue(),
+        date: TourDate.create(date).getValue(),
         city: city,
         capacity: TourCapacity.create(capacity).getValue(),
         guideId: GuideId.create(new UniqueEntityID(guideId)),

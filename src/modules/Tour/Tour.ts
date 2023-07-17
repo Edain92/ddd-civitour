@@ -7,7 +7,7 @@ import { Title } from "../value-objects/Title";
 import { TourCapacity } from "../value-objects/TourCapacity";
 import { TourDate } from "../value-objects/TourDate";
 import { City } from "../City/City";
-import { Guide } from "../Guide/Guide";
+import { GuideId } from "../Guide/GuideId";
 
 export class Tour extends Entity<TourProps>  {
   private constructor(props: TourProps, id?: UniqueEntityID) {
@@ -34,8 +34,8 @@ export class Tour extends Entity<TourProps>  {
     return this.props.capacity;
   }
 
-  get guide(): Guide {
-    return this.props.guide;
+  get guideId(): GuideId {
+    return this.props.guideId;
   }
 
   public static createTour(props: TourProps, id?: UniqueEntityID): Result<Tour> {
@@ -45,7 +45,7 @@ export class Tour extends Entity<TourProps>  {
       { argumentName: 'date', argument: props.date },
       { argumentName: 'city', argument: props.city },
       { argumentName: 'capacity', argument: props.capacity },
-      { argumentName: 'guide', argument: props.guide }
+      { argumentName: 'guideId', argument: props.guideId }
     ]);
 
     if (!userPropsResult.succeeded) {
